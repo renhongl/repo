@@ -45,6 +45,10 @@
     {
       "packageName": "main",
       "projectFolder": "apps/main"
+    },
+    {
+      "packageName": "demo",
+      "projectFolder": "apps/demo"
     }
   ]
 }
