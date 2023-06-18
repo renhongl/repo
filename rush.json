@@ -43,8 +43,8 @@
  
   "projects": [
     {
-      "packageName": "my-toolchain",
-      "projectFolder": "tools/my-toolchain"
+      "packageName": "main",
+      "projectFolder": "apps/main"
     }
   ]
 }
