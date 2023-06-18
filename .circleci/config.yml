@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@16.20.0
+  node: circleci/node@5.0.0
   heroku: circleci/heroku@1.2.6
 
 jobs:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: npm i
+          pkg-manager: npm
       - run:
           command: npm run test
           name: Run tests
